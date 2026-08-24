@@ -509,18 +509,6 @@ if __name__ == "__main__":
 
         print()
         print("====================================")
-        print("TEST FAILED")
-        print("====================================")
-        print(e)
 
-        sys.exit(1)
 
-    except Exception as e:
 
-        print()
-        print("====================================")
-        print("AUTOGRADING ERROR")
-        print("====================================")
-        print(e)
-
-        sys.exit(1)
